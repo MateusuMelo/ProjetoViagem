@@ -1,5 +1,6 @@
-from Agenda import Agenda
-from PlanejamentoViagem import PlanejamentoViagem  # Corrigido o caminho de importação
+
+from src.modules.Agenda import Agenda
+from src.modules.PlanejamentoViagem import PlanejamentoViagem
 
 def main():
     agenda = Agenda()
@@ -15,9 +16,9 @@ def main():
     agenda.createViagem(viagem3)
 
     # Lendo e exibindo os planejamentos
-    planejamentos = agenda.readViagens()  # Alterado para usar o método correto
+    viagens = agenda.readViagens()
     print("Planejamentos de viagem:")
-    for viagem in planejamentos:
+    for viagem in viagens:
         print(viagem)
 
     # Atualizando um planejamento
@@ -25,7 +26,7 @@ def main():
     agenda.updateViagem(1, viagem4)
 
     # Lendo e exibindo os planejamentos após a atualização
-    planejamentos = agenda.readViagens()  # Alterado para usar o método correto
+    planejamentos = agenda.readViagens()
     print("\nPlanejamentos de viagem após atualização:")
     for viagem in planejamentos:
         print(viagem)
@@ -34,7 +35,7 @@ def main():
     agenda.deleteViagem(1)
 
     # Lendo e exibindo os planejamentos após a exclusão
-    planejamentos = agenda.readViagens()  # Alterado para usar o método correto
+    planejamentos = agenda.readViagens()
     print("\nPlanejamentos de viagem após exclusão:")
     for viagem in planejamentos:
         print(viagem)
