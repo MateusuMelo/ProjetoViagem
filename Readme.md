@@ -3,7 +3,7 @@
 Repositório para a apresentação do seminário de C214
 
 ## Definição
-- **Nome do Membro:** Luiza Ribeiro de Matha
+- **Nome do Membro:** Luiza Ribeiro de Matha, Mateus Correa de Melo
 - **Tema:** Aplicativo de Planejamento de Viagens
 
 ## Concepção e Escopo do Projeto
@@ -24,7 +24,6 @@ O objetivo deste projeto é criar um aplicativo que facilite o planejamento de v
 
 - **Planejamento Detalhado:**
   - Inserir e acompanhar detalhes sobre destinos, datas e atividades planejadas.
-  - Oferecer sugestões de atividades e pontos turísticos com base no destino escolhido.
 
 ---
 
