@@ -3,7 +3,7 @@
 Repositório para a apresentação do seminário de C214
 
 ## Definição
-- **Nome do Membro:** Luiza Ribeiro de Matha
+- **Nomes dos Membros:** Luiza Ribeiro de Matha e Mateus Correa de Melo
 - **Tema:** Aplicativo de Planejamento de Viagens
 
 ## Concepção e Escopo do Projeto
